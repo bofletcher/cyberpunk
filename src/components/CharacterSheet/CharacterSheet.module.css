@@ -1,0 +1,40 @@
+.characterSheetContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: black;
+}
+
+.topRow {
+display: flex;
+flex-direction: row;
+height: 5em;
+}
+
+.logoContainer {
+height: 100%;
+}
+
+.logo {
+  height: 100%
+}
+
+.topLevelStats {
+  display: flex;
+  flex-direction: column;
+}
+
+.cyberBorder {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid red;
+  border-radius: 0 25px 0 0;
+  background-color: red;
+  color: white;
+  font-family: -apple-system, 
+}
+
+.statHolder {
+  background-color: white;
+  width: 100%;
+}
